@@ -1,26 +1,177 @@
 # Financial Performance & Variance Analysis (SaaS Enterprise)
 
-This project simulates a large enterprise SaaS company's financial performance over a 3‑year period, including revenue, expenses, budget vs. actual variance, forecast accuracy, and KPI reporting. It demonstrates Business Analyst capabilities across data analysis, SQL, Power BI, documentation, and financial storytelling.
+*A Business Analyst project simulating corporate financial performance, budget vs. actual variance analysis, forecasting accuracy, and executive reporting using SQL, Power BI, and structured documentation.*
 
-## Key Features
-- 36 months of simulated SaaS financial data
-- Budget vs. actual variance analysis
-- Forecast accuracy and anomaly detection
-- Department + cost center breakdowns
-- Executive‑level Power BI dashboard
-- SQL scripts for cleaning, KPI logic, and variance calculations
-- BA documentation: requirements, workflow map, findings, recommendations
+---
 
-## Tools Used
-- SQL
-- Power BI
-- Excel / CSV
-- Workflow documentation
-- Business analysis techniques
+## Executive summary
 
-## Structure
-- `/data` — raw + cleaned datasets
-- `/sql` — cleaning, variance, KPI logic
-- `/powerbi` — dashboard file
-- `/docs` — requirements, workflow map, findings, recommendations
+This project simulates the financial performance of a large enterprise SaaS company over a 36‑month period. It demonstrates end‑to‑end Business Analyst and Data Analyst capabilities, including data modeling, SQL analysis, KPI development, variance investigation, forecasting accuracy, and executive‑level reporting.
+
+The goal is to replicate a real corporate finance environment where leadership needs clear, reliable insights to understand revenue trends, cost behaviour, budget performance, and operational efficiency.
+
+---
+
+## Project objectives
+
+This project was designed to showcase:
+
+- Accurate financial storytelling using data  
+- Budget vs. actual variance analysis  
+- Forecast accuracy measurement  
+- KPI development for SaaS performance  
+- SQL‑based data cleaning, modeling, and calculations  
+- Executive‑ready reporting and recommendations  
+- Business Analyst documentation and workflow clarity  
+
+---
+
+## Dataset overview
+
+The dataset includes 36 months of simulated SaaS financial data across:
+
+- **Revenue streams:** subscription, usage‑based, onboarding, enterprise contracts  
+- **Expense categories:** payroll, hosting, marketing, operations, G&A  
+- **Departments:** Sales, Marketing, Product, Engineering, Support, Finance  
+- **Cost centers:** team‑level breakdowns  
+- **Budget & forecast:** monthly planned vs. actual values  
+- **Variance fields:** favorable/unfavorable, rate vs. volume drivers  
+
+Data exists in both raw and cleaned formats to demonstrate transformation logic.
+
+---
+
+## SQL analysis
+
+SQL scripts in the `/sql` folder include:
+
+- Data cleaning and normalization  
+- Revenue and expense aggregation  
+- Budget vs. actual variance calculations  
+- Forecast accuracy formulas  
+- Gross margin and operating margin KPIs  
+- Anomaly detection (month‑over‑month spikes/drops)  
+
+These scripts replicate the type of financial analysis performed in enterprise environments.
+
+---
+
+## KPIs and metrics
+
+Key performance indicators include:
+
+- **MRR (Monthly Recurring Revenue)**  
+- **ARR (Annual Recurring Revenue)**  
+- **Gross margin %**  
+- **Operating margin %**  
+- **Budget variance %**  
+- **Forecast accuracy %**  
+- **Departmental spend vs. budget**  
+- **Revenue per customer / per product line**  
+
+Each KPI is calculated using SQL and documented for clarity.
+
+---
+
+## Variance analysis framework
+
+### Budget vs. actual variance
+
+- Favorable (F)  
+- Unfavorable (U)  
+- Zero variance  
+
+### Volume vs. rate drivers
+
+- **Volume:** quantity changes  
+- **Rate:** price or cost changes  
+
+### Forecast vs. actual
+
+- Accuracy %  
+- Error direction  
+- Error magnitude  
+
+This mirrors real corporate FP&A methodology.
+
+---
+
+## Insights and findings (simulated)
+
+Examples of insights generated from the analysis:
+
+- Marketing overspend in Q2 led to a 12% unfavorable variance.  
+- Engineering payroll increased due to headcount expansion, impacting operating margin.  
+- Subscription revenue grew steadily, but enterprise contracts showed volatility.  
+- Forecast accuracy improved from 78% to 91% after model adjustments.  
+- Hosting costs spiked due to increased usage volume, not rate changes.  
+
+These insights demonstrate how data informs financial decision‑making.
+
+---
+
+## Dashboard design (planned)
+
+A Power BI dashboard will be added to the `/powerbi` folder.
+
+### Page 1 – Executive summary
+
+- Total revenue, expenses, margin  
+- Year‑over‑year and month‑over‑month trends  
+- High‑level variance indicators  
+
+### Page 2 – Budget vs. actual
+
+- Departmental variance  
+- Cost center drill‑downs  
+- Favorable vs. unfavorable heatmap  
+
+### Page 3 – Forecast accuracy
+
+- Forecast vs. actual by month  
+- Error magnitude  
+- Accuracy trend line  
+
+### Page 4 – Revenue deep dive
+
+- Revenue by product line  
+- Customer segments  
+- Churn and expansion indicators  
+
+### Page 5 – Anomaly detection
+
+- Outlier months  
+- Variance drivers  
+- Alerts for spikes/drops  
+
+This section will be updated once the dashboard is complete.
+
+---
+
+## Business Analyst documentation
+
+Located in the `/docs` folder:
+
+- Requirements document  
+- Workflow map  
+- Data dictionary  
+- Findings and recommendations  
+- Assumptions and constraints  
+
+These artifacts demonstrate structured analytical thinking and communication.
+
+---
+
+## Tech stack
+
+- **SQL** – cleaning, modeling, KPI logic  
+- **Power BI** – dashboard design (planned)  
+- **Excel/CSV** – dataset creation  
+- **Documentation** – BA workflow, requirements, findings  
+
+---
+
+## About this project
+
+This project demonstrates Business Analyst and Data Analyst capabilities across financial modeling, SQL analysis, variance investigation, forecasting, and executive reporting. It simulates the type of work performed in SaaS finance, FP&A, and corporate analytics teams.
 
