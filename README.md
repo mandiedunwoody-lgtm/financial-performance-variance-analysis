@@ -13,6 +13,18 @@
 
 ---
 
+## Repository navigation
+
+This project is organized into clear, structured folders to make exploration easy:
+
+- **`/data`** – Raw and cleaned datasets used for financial modeling and variance analysis  
+- **`/sql`** – SQL scripts for data cleaning, KPI calculations, variance logic, and financial analysis  
+- **`/docs`** – Business Analyst documentation (requirements, workflow map, data dictionary, findings)  
+- **`/powerbi`** – Planned Power BI dashboard files and design assets  
+- **`README.md`** – Full project overview, objectives, methodology, and analysis framework  
+
+---
+
 ## Executive summary
 
 This project simulates the financial performance of a large enterprise SaaS company over a 36‑month period. It demonstrates end‑to‑end Business Analyst and Data Analyst capabilities, including data modeling, SQL analysis, KPI development, variance investigation, forecasting accuracy, and executive‑level reporting.
