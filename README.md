@@ -196,3 +196,16 @@ These artifacts demonstrate structured analytical thinking and communication.
 
 This project demonstrates Business Analyst and Data Analyst capabilities across financial modeling, SQL analysis, variance investigation, forecasting, and executive reporting. It simulates the type of work performed in SaaS finance, FP&A, and corporate analytics teams.
 
+## Future enhancements
+
+---
+
+Planned improvements to continue expanding the project:
+
+- Add full Power BI dashboard with executive summary and drill‑downs  
+- Implement DAX measures for advanced financial modeling  
+- Add Python notebook for automated variance detection and forecasting  
+- Expand dataset with customer‑level revenue and churn behavior  
+- Add unit tests for SQL transformations  
+- Include scenario modeling (best case, worst case, expected)  
+- Add interactive documentation using Markdown diagrams  
