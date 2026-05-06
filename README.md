@@ -2,6 +2,8 @@
 
 *A Business Analyst project simulating corporate financial performance, budget vs. actual variance analysis, forecasting accuracy, and executive reporting using SQL, Power BI, and structured documentation.*
 
+---
+
 ![SQL](https://img.shields.io/badge/SQL-Analysis-blue?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge)
 ![Business Analyst](https://img.shields.io/badge/Business%20Analysis-Documentation-green?style=for-the-badge)
