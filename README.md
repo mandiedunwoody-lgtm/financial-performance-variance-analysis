@@ -196,9 +196,9 @@ These artifacts demonstrate structured analytical thinking and communication.
 
 This project demonstrates Business Analyst and Data Analyst capabilities across financial modeling, SQL analysis, variance investigation, forecasting, and executive reporting. It simulates the type of work performed in SaaS finance, FP&A, and corporate analytics teams.
 
-## Future enhancements
-
 ---
+
+## Future enhancements
 
 Planned improvements to continue expanding the project:
 
